@@ -1,0 +1,48 @@
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+h1{
+    font-family: baskerville-urw, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 7vh;
+    text-align: left;
+    
+}
+h2{
+    font-family: baskerville-urw, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 4vh;
+    text-align: right;
+}
+a:link{
+    text-decoration: none;
+    color:black;
+}
+
+a:visited{
+    text-decoration: none;
+    color:black;
+}
+
+@media (max-width: 700px){
+
+    body{
+        background-color: rgb(36, 36, 36);
+    }
+    a:link{
+        text-decoration: none;
+        color:rgb(255, 245, 240);
+    }
+    
+    a:visited{
+        text-decoration: none;
+        color:rgb(255, 245, 240);
+    }
+}
